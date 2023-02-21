@@ -6,3 +6,4 @@
 * model에는 linear model, descion tree계열, 그리고 esn을 사용할 계획이다
 * finance_data_change는 전날과 종가의 차이를 비교 해줍니다
 * reset_index()는 multi index를 없애주고 0부터 차례대로 정렬해주는 기능을 가지고 있고 차례대로 정렬을 위해 이를 사용하였다면 drop(columns=['index']를 해줘야 합니다 
+* finance_change는 변화량이 target값으로 지정하여 학습하였다
